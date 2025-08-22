@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #dadadac3;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/7293752/pexels-photo-7293752.jpeg");
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+main .about {
+ 
+  background-color: #fff;
+  padding: 2rem;
+  border-bottom: 3px solid;
+  /* espessura da linha */
+  border-image-slice: 0.9;
+  border-image-source: linear-gradient(90deg, #ff9100, #1c0d6a, #438b86);
+}
+
+main .about .content {
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+main .about .image-content {
+  background-image: url("https://images.pexels.com/photos/7293752/pexels-photo-7293752.jpeg");
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #ff9100;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+main .about .image-content img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+
+}
+
+main .description-content {
+  padding: 1rem;
+  display: inline-block;
+  width: 70%;
+  margin-left: 1rem;
+ 
+}
+
+main .skills {
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 3px solid;
+  /* espessura da linha */
+  border-image-slice: 0.9;
+  border-image-source: linear-gradient(90deg, #ff9100, #1c0d6a, #438b86);
+
+}
+
+main .skills ul {
+  list-style: none;
+  padding: 2rem;
+}
+
+main .skills ul .skill {
+  display: inline-block;
+  border: 2px solid #ff9100;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  background-image: url("https://images.pexels.com/photos/7293752/pexels-photo-7293752.jpeg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .projects {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 3px solid;
+  /* espessura da linha */
+  border-image-slice: 0.9;
+  border-image-source: linear-gradient(90deg, #ff9100, #1c0d6a, #438b86);
+}
+
+main .projects .project {
+  background-image: url("https://images.pexels.com/photos/7293752/pexels-photo-7293752.jpeg");
+  max-width: 350px;
+  width: 40%;
+  margin: 2rem auto;
+  display: inline-block;
+  padding: 2rem;
+  margin-left: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #ff9100;
+
+}
+
+main .contact{
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/7293752/pexels-photo-7293752.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+main .contact form{
+  
+  width: 60%;
+  margin: 2rem auto;
+
+}
+main .contact form label{
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.3rem;
+
+}
+
+main .contact form input{
+  all: unset;
+  background: #fff;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.6rem  1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #000;
+  text-align: left;
+
+
+}
+main .contact form input[type="submit"]{
+  background-color: #ff9100;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer{
+  background: #0e0d0d;
+  padding: 4rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
